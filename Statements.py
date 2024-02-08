@@ -1,2 +1,6 @@
-if True:
-    print("its true")
+hungry = True
+
+if hungry:
+    print("Feed me!")
+else:
+    print("I'm full.")
