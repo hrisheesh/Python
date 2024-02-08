@@ -1,6 +1,8 @@
-hungry = True
+location = "house"
 
-if hungry:
-    print("Feed me!")
+if location == "bank":
+    print("money money")
+elif location == "house":
+    print("chill!!")
 else:
-    print("I'm full.")
+    print("dont know much")
