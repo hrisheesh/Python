@@ -1,7 +1,4 @@
-mylist = [1,2,3,4,5,6,7,8,9,10]
-list_sum = 0
-
-for num in mylist:
-    list_sum += num
-
-print(list_sum)
+mylist = [(1,2),(3,4),(5,6)]
+print(len(mylist))
+for item in mylist:
+    print(item)
